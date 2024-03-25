@@ -1,0 +1,20 @@
+{
+  "actions" : {
+    "run" : {
+      "postActions" : [
+        {
+          "script" : "python3 ~\/git\/diagrams-test\/aws-example.py",
+          "type" : "runScript"
+        }
+      ]
+    }
+  },
+  "extension" : {
+    "identifier" : "net.danwatson.Python",
+    "name" : "Python"
+  },
+  "extensionTemplate" : "virtualenv",
+  "extensionValues" : {
+    "module" : "examples"
+  }
+}

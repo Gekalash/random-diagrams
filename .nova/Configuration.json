@@ -1,0 +1,5 @@
+{
+  "editor.default_syntax" : "python",
+  "python.pythonPath" : "\/opt\/homebrew\/bin\/python3",
+  "workspace.color" : 6
+}
